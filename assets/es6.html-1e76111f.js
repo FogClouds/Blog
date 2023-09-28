@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-78f06e80","path":"/blogs/js/es6.html","title":"ES6学习！","lang":"en-US","frontmatter":{"title":"ES6学习！","date":"2023/9/7","tags":["Js"],"categories":["Es6学习"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/js/es6.md"}');export{e as data};

@@ -1,0 +1,60 @@
+import{_ as d,r as l,o as r,c as s,b as e,d as a,e as i,f as t}from"./app-f47179b6.js";const o="/Blog/logo.png",c={},u={href:"https://m.runoob.com/markdown/md-advance.html",target:"_blank",rel:"noopener noreferrer"},b=t(`<img width="16" height="16" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB0klEQVQ4jY2TQW9SQRDHf7NsMBRIlEejkpA0hPbeb9B4rDbGj+BBOJl48epFP4DxBvHmzbP2SDx49/zAUBIMoTGFAtqXqm/Hw1tIy8PEfzKH3Zmd+c/8Z4WPPERpASA0v90vfr4g+0rhHugOiWMg0BFMe5fvX7gC4QNj4DYAyunoqFJbcDkHMqxBwCn6dovJsypEAGY9KGakgGKEdVMjBjGNiOB4CDkAi9DE+RYMzTu9k+dqM9ZWK0nNNeiPn3y9VTu40NJrmDQJKZZHVLaGkPvdO3mhHi6ON1o8m2koZe0SxD22962Qfbng8gkEqjZjAcaPnzJ/9x7UpRiggCoKBlxDQoIQ2MMIu7/GIEIvexfiGETSXfgEHl2bSOWjRHyAAxHq532kkE/P4GbNJ9Edm+a4GQJgDBTyycGTsCADYC/dqyaVPDlTLFCf9tfTDoxA59qVgCnkE+2X/Yuh8OgBiODmi1V1gY4VTBtcQ5dLZQz1aR/lOsQk7kQdRcAlb4GQUiuUssaz+T/1/zM918mbtnZvVDQk0JBSazWbIeQigmMVOdiwfH4mrOQT+JTj7LAKkQGoQpTj7BB1bXHqcErKPG3Q9vLxisFV9Nje12Qm//Wd/wJwEvqjyV3wbwAAAABJRU5ErkJggg=="><h2 id="一、基本语法" tabindex="-1"><a class="header-anchor" href="#一、基本语法" aria-hidden="true">#</a> 一、基本语法</h2><h2 id="_1-标题" tabindex="-1"><a class="header-anchor" href="#_1-标题" aria-hidden="true">#</a> 1.标题</h2><blockquote><p>语法: &#39;#&#39; + &#39;空格&#39; + 标题, #号等于- 快捷键：Cmd + H</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em></p><h6 id="六级标题" tabindex="-1"><a class="header-anchor" href="#六级标题" aria-hidden="true">#</a> 六级标题</h6><h2 id="_2-引用" tabindex="-1"><a class="header-anchor" href="#_2-引用" aria-hidden="true">#</a> 2.引用</h2><blockquote><p>语法: &#39;&gt;&#39; + &#39;空格&#39; + 内容</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+一级引用： &gt;作者为：老舍
+二级引用： &gt;&gt;作者为：老舍
+三级引用： &gt;&gt;&gt;作者为：老舍
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em></p><blockquote><p>一级引用效果：引用</p></blockquote><h2 id="_3-列表" tabindex="-1"><a class="header-anchor" href="#_3-列表" aria-hidden="true">#</a> 3.列表</h2><h3 id="_3-1无序列表" tabindex="-1"><a class="header-anchor" href="#_3-1无序列表" aria-hidden="true">#</a> 3.1无序列表</h3><blockquote><p>语法: &#39;- + *&#39; + &#39;空格&#39; ＋ &#39;文本&#39;</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+* 列表1
+- 系列1
++  序列1
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em></p><ul><li>列表1</li><li>列表2</li></ul><p>等同于</p><ul><li>系列1</li><li>系列2</li></ul><p>等同于</p><ul><li>序列1</li><li>序列2</li></ul><h3 id="_3-2有序列表" tabindex="-1"><a class="header-anchor" href="#_3-2有序列表" aria-hidden="true">#</a> 3.2有序列表</h3><blockquote><p>语法: &#39;1.&#39; + &#39;空格&#39; ＋ &#39;文本&#39; **</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+1. 列表1
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em></p><ol><li>列表1</li><li>列表2</li></ol><h3 id="_3-3-二级列表" tabindex="-1"><a class="header-anchor" href="#_3-3-二级列表" aria-hidden="true">#</a> 3.3 二级列表</h3><blockquote><p>语法：二级无序列表，只需在二级列表中的选项前面添加两个或四个空格即可，三级列表只需要在第三级无序列表开头空格即可</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>- 一级
+  - 二级列表
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em></p><ul><li>一级 <ul><li>二级列表</li></ul></li></ul><h2 id="_4-代码块" tabindex="-1"><a class="header-anchor" href="#_4-代码块" aria-hidden="true">#</a> 4.代码块</h2><blockquote><p>语法：\`\`\` + 内容 + \`\`\`</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+    \`\`\`
+    alert(&quot;hello world&quot;)
+    \`\`\`
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em></p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code> alert(&quot;hello world&quot;)
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="_5-分割线" tabindex="-1"><a class="header-anchor" href="#_5-分割线" aria-hidden="true">#</a> 5.分割线</h2><blockquote><p>语法：*** 或 * * * 或 ***** 或 - - - 或 ---------------------------------------</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+    * * * 
+    分割线
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em></p><hr><p>分割线</p><h2 id="_6-链接" tabindex="-1"><a class="header-anchor" href="#_6-链接" aria-hidden="true">#</a> 6.链接</h2><blockquote><p>语法： [我的博客](链接地址)<br> &lt;链接地址&gt;<br> 这是百度的[百度][baidu] ；文末加[baidu]:http://www.baidu.com/</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+这是百度的[百度][baidu]
+[我的博客](https://github.com/FogClouds/Blog.git)  
+&lt;https://github.com/FogClouds/Blog.git&gt;
+[baidu]: http://www.baidu.com/
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,46),h=e("em",null,[e("strong",null,"效果：")],-1),v=e("br",null,null,-1),m={href:"http://www.baidu.com/",target:"_blank",rel:"noopener noreferrer"},g=e("br",null,null,-1),p={href:"https://github.com/FogClouds/Blog.git/",target:"_blank",rel:"noopener noreferrer"},x=e("br",null,null,-1),_={href:"https://github.com/FogClouds/Blog.git",target:"_blank",rel:"noopener noreferrer"},k=t(`<h2 id="_7-图片" tabindex="-1"><a class="header-anchor" href="#_7-图片" aria-hidden="true">#</a> 7.图片</h2><blockquote><p>语法：![图片的标注](图片链接地址)</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+ ![头像](./logo.png)
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em><img src="`+o+`" alt="头像"></p><h2 id="_8-表格" tabindex="-1"><a class="header-anchor" href="#_8-表格" aria-hidden="true">#</a> 8.表格</h2><h3 id="_8-1-基本表格" tabindex="-1"><a class="header-anchor" href="#_8-1-基本表格" aria-hidden="true">#</a> 8.1. 基本表格</h3><blockquote><p>语法：| 表头 | 表头 | | ---- | ---- | | 单元格 | 单元格 | | 单元格 | 单元格 |</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em></p><table><thead><tr><th>表头</th><th>表头</th></tr></thead><tbody><tr><td>单元格</td><td>单元格</td></tr><tr><td>单元格</td><td>单元格</td></tr></tbody></table><h3 id="_8-2-表格对齐方式" tabindex="-1"><a class="header-anchor" href="#_8-2-表格对齐方式" aria-hidden="true">#</a> 8.2. 表格对齐方式</h3><blockquote><p>语法: -: 设置内容和标题栏居右对齐。 :- 设置内容和标题栏居左对齐。 :-: 设置内容和标题栏居中对齐。</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em></p><table><thead><tr><th style="text-align:left;">左 对 齐</th><th style="text-align:right;">右 对 齐</th><th style="text-align:center;">居中对齐</th></tr></thead><tbody><tr><td style="text-align:left;">单元格</td><td style="text-align:right;">单元格</td><td style="text-align:center;">单元格</td></tr><tr><td style="text-align:left;">单元格</td><td style="text-align:right;">单元格</td><td style="text-align:center;">单元格</td></tr></tbody></table><h2 id="_9-段落" tabindex="-1"><a class="header-anchor" href="#_9-段落" aria-hidden="true">#</a> 9.段落</h2><blockquote><p>换行:两个以上空格 ； 回车换行 ；段落后面加一个空行来表示重新开始一个段落</p></blockquote><h2 id="_10-字体" tabindex="-1"><a class="header-anchor" href="#_10-字体" aria-hidden="true">#</a> 10.字体</h2><blockquote><p>语法：<br> 斜体： *斜体文本*<br> 斜体: _斜体文本_<br> 粗体: **粗体文本** 粗体: __粗体文本__<br> 粗斜体: ***粗斜体文本***<br> 粗斜体: ___粗斜体文本___<br> 高亮：\`\`要代码高亮的字体 \`\`<br> 高亮：\`要代码高亮的字体\`</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+* 斜体文本 *  
+_ 斜体文本 _  
+**粗体文本**  
+__粗体文本__  
+***粗斜体文本***  
+___粗斜体文本___  
+\`\`高亮的字体 \`\` 
+\`高亮的字体\`
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em><br><em>斜体文本</em><br><em>斜体文本</em><br><strong>粗体文本</strong><br><strong>粗体文本</strong><br><em><strong>粗斜体文本</strong></em><br><em><strong>粗斜体文本</strong></em><br><code>要代码高亮的字体 </code><br><code>要代码高亮的字体</code></p><h2 id="_11-删除线" tabindex="-1"><a class="header-anchor" href="#_11-删除线" aria-hidden="true">#</a> 11. 删除线</h2><blockquote><p>语法： ~~删除线~~</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+~~删除线~~
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em><br><s>删除线</s></p><h2 id="_12-下划线" tabindex="-1"><a class="header-anchor" href="#_12-下划线" aria-hidden="true">#</a> 12.下划线</h2><blockquote><p>语法：&lt;\\u&gt;带下划线文本&lt;\\u&gt;</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+&lt;u&gt;带下划线文本&lt;/u&gt;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em><br><u>带下划线文本</u></p><h2 id="_13-脚注" tabindex="-1"><a class="header-anchor" href="#_13-脚注" aria-hidden="true">#</a> 13.脚注</h2><blockquote><p>语法：[^要注明的文本]</p></blockquote><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>代码：
+我的注明的[^要注明的文本] 
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><em><strong>效果：</strong></em><br> 创建脚注格式类似这样 [^RUNOOB]。<br> [^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！</p>`,33);function f(q,A){const n=l("ExternalLinkIcon");return r(),s("div",null,[e("p",null,[a("参考链接："),e("a",u,[a("https://m.runoob.com/markdown/md-advance.html"),i(n)])]),b,e("p",null,[h,v,a(" 这是百度的"),e("a",m,[a("百度"),i(n)]),g,e("a",p,[a("我的博客"),i(n)]),x,e("a",_,[a("https://github.com/FogClouds/Blog.git"),i(n)])]),k])}const w=d(c,[["render",f],["__file","mackDown.html.vue"]]);export{w as default};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0dea6eaf","path":"/blogs/js/Array.html","title":"Array学习！","lang":"en-US","frontmatter":{"title":"Array学习！","date":"2023/9/7","tags":["Js"],"categories":["Array学习"]},"headers":[],"git":{"createdTime":null,"updatedTime":null,"contributors":[]},"filePathRelative":"blogs/js/Array.md"}');export{e as data};
